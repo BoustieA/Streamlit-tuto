@@ -99,5 +99,5 @@ if __name__=="__main__":
                                         , x = colonne_histogram
                                         , hue = colonne_groupe)
         
-            st.plotly_chart(figure,use_container_width=True)
+            st.pyplot(fig=figure)
     
